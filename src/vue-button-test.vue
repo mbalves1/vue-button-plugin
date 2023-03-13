@@ -12,6 +12,9 @@ export default /*#__PURE__*/{
       },
     };
   },
+  props: {
+    text: String,
+  },
   computed: {
     changedBy() {
       const { message } = this;
@@ -45,7 +48,7 @@ export default /*#__PURE__*/{
   <div class="vue-button-test">
     <p>The counter was {{ changedBy }} to <b>{{ counter }}</b>.</p>
     <button @click="increment">
-      Click +1
+      {{text}}
     </button>
     <button @click="decrement">
       Click -1

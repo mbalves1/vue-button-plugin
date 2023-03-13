@@ -12,6 +12,6 @@ export default Vue.extend({
 
 <template>
   <div id="app">
-    <vue-button-test />
+    <vue-button-test text="Click on me to redirect"/>
   </div>
 </template>
