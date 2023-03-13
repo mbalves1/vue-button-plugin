@@ -1,6 +1,6 @@
 {
   "name": "vue-button-test-mb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
 
   "main": "dist/vue-button-test.ssr.js",
